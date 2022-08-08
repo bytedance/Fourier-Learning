@@ -1,8 +1,10 @@
 This directory contains source code for reproducting the results in the ICML
-publication [Yingxiang Yang, Zhihan Xiong, Tianyi Liu, Taiqing Wang, Chong Wang. Fourier learning with cyclical data.] The repository contains two experiments:
+publication (Yingxiang Yang, Zhihan Xiong, Tianyi Liu, Taiqing Wang, Chong Wang. Fourier learning with cyclical data. ICML2022). The repository contains two experiments:
 
 1. the toy example, and 
-2. the experiment on Twitter Sentiment-140 dataset, including both source code and the original log files. The code of Sentiment-140 was largely based on the existing repository:
+2. the experiment on Twitter Sentiment-140 dataset, including both source code and the original log files. 
+
+The code of Sentiment-140 is largely based on the existing repository:
 https://github.com/google-research/federated/tree/master/semi_cyclic_sgd (Eichner, Koren, McMahan, Srebro, Talwar. Semi-Cyclic Stochastic Gradient Descent. ICML2019), with some modifications to reduce run time and adapt to the experiment settings of the Fourier learning paper. We sincerely appreciate the availability of the original code, and would encourage the readers to cite both papers when using the code for future experiment.
 
 @inproceedings{eichner2019semi,
